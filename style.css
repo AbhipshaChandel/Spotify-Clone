@@ -119,3 +119,61 @@ button:hover {
   align-self: center;
   margin-left: 20px;
 }
+
+/* -----LEFT BOX----- */
+
+.left{
+  width: 30vw;
+  border: 2px solid white;
+  height: 100vh;
+}
+
+/* -----LEFT FIRST----- */
+.left-first{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  padding: 20px 20px;
+  font-weight: 600;
+}
+.left-first-write{
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  background-color:  rgba(41, 40, 40, 0.564);
+  display: flex;
+  gap: 6px;
+  cursor: pointer;
+}
+.left-first-write:hover{
+  background-color: #242323;
+}
+
+/* -----LEFT SECOND----- */
+.left-second{
+  height: 150px;
+  width: 90%;
+  margin:25px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 16px;
+  padding: 0px 20px;
+  background-color: #0e0d0d;
+}
+.left-second-1{
+  font-size: 17px;
+  font-weight: 600;
+}
+.left-second-2{
+  font-size: 15px;
+}
+.left-second-3{
+  font-size: 14px;
+  align-self: flex-start;
+  width: 150px;
+  height: 45px;
+}
