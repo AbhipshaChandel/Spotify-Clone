@@ -119,12 +119,14 @@ body {
   align-self: center;
   margin-left: 20px;
 }
-
+/* -----BOXES----- */
+.boxes{
+  display: flex;
+}
 /* -----LEFT BOX----- */
 
 .left{
   width: 30vw;
-  /* border: 2px solid white; */
   border-radius: 12px;
   margin: 5px 10px;
   height: 100vh;
@@ -146,14 +148,15 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 18px;
-  background-color:  rgba(74, 73, 73, 0.564);
+  background-color:  rgba(46, 46, 46, 0.564);
   display: flex;
   gap: 6px;
   cursor: pointer;
 }
 .left-first-write:hover{
-  background-color: #242323;
+  background-color: #2e2d2d;
 }
+
 
 /* -----LEFT SECOND----- */
 .left-second{
@@ -225,4 +228,39 @@ body {
   margin: 0px 5px;
   padding-top: 3px;
   align-self: center;
+}
+
+/* -----RIGHT BOX---- */
+.right{
+  width:70vw ;
+    margin: 5px 10px;
+  height: 100vh;
+  border: 2px solid white;
+  border-radius: 12px;
+}
+
+.right-first{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.right-first-1{
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.right-first-1:hover{
+  text-decoration: underline;
+}
+
+.right-first-2{
+  font-size: 15px;
+  color:#636262;
+  padding: 5px 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.right-first-2:hover{
+  text-decoration: underline;
 }
